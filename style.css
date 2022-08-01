@@ -3,3 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: 100px;
+}
+
+.card {
+    align-items: center;
+    display: flex;
+    background-color: white;
+    width: 70%;
+    border-radius: 8px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.cardText {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 40px;
+}
+
+button {
+    color: white;
+    height: 48px;
+    width: 150px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 8px;
+}
