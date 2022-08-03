@@ -36,6 +36,8 @@ h3 {
     font-family: 'Montserrat', sans-serif;
     color:hsl(228, 12%, 48%);
     font-weight: 700;
+    letter-spacing: 6px;
+    font-size: 14px; 
 }
 
 h2{
@@ -48,7 +50,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: -24px;
+    margin-left: -44px;
 }
 .desc {
     font-family: 'Montserrat', sans-serif;
@@ -66,10 +68,14 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color:hsl(228, 12%, 48%);
     font-weight: 700;
+    margin-left: -65px;
     
 }
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     height: 48px;
     width: 250px;
@@ -78,4 +84,9 @@ button {
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+#cart{
+    height: 20px;
+    margin-right: 8px;
 }
