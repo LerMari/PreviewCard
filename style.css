@@ -90,3 +90,24 @@ button {
     height: 20px;
     margin-right: 8px;
 }
+
+@media (max-width: 700px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 8px;
+    }
+
+    .card img {
+        height: 50%;
+        border-radius: 8px 8px 0 0;
+}
+
+.cardText {
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 32px;
+}
