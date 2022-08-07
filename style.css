@@ -86,6 +86,11 @@ button {
     font-weight: 700;
 }
 
+button:hover {
+   background-color: hsl(158, 32%, 22%);
+   cursor: pointer;
+}
+
 #cart{
     height: 20px;
     margin-right: 8px;
@@ -93,21 +98,24 @@ button {
 
 @media (max-width: 700px) {
     .card {
+        height: 600px;
         display: flex;
         flex-direction: column;
         background-color: white;
         border-radius: 8px;
     }
 
+
     .card img {
-        height: 50%;
+        height: 35%;
         border-radius: 8px 8px 0 0;
-}
+    }
 
 .cardText {
-    height: 50%;
+    height: 65%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     padding: 32px;
+}
 }
