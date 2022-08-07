@@ -109,6 +109,7 @@ button:hover {
     .card img {
         height: 35%;
         border-radius: 8px 8px 0 0;
+        object-fit: cover;
     }
 
 .cardText {
